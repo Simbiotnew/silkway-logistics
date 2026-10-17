@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silk Way Logistics — аренда авто с водителем в Астане</title>
+  <meta name="description" content="Аренда авто с водителем в Астане: Mercedes Sprinter, V-Class, автобусы 4–50 мест. VIP-трансферы, аэропорт, межгород, мероприятия.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org: Google понимает, что это местная компания, и может показать телефон/город в поиске -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Silk Way Logistics",
+    "description": "Аренда авто с водителем, трансферы, автобусы и автобетононасосы в Астане и по Казахстану",
+    "telephone": ["+77012205546", "+77001940940"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Астана", "addressCountry": "KZ" },
+    "areaServed": "Казахстан",
+    "priceRange": "9000–50000 KZT",
+    "sameAs": ["https://instagram.com/silkway.logisticskz"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <img src="img/logo.png" alt="" class="logo__img">
+        <span class="logo__text">Silk Way <small>Logistics</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <a href="#fleet" class="nav__link" data-i18n="nav.fleet">Автопарк</a>
+        <a href="#calc" class="nav__link" data-i18n="nav.price">Цены</a>
+        <a href="#services" class="nav__link" data-i18n="nav.services">Услуги</a>
+        <a href="#tours" class="nav__link" data-i18n="nav.tours">Туры</a>
+        <a href="#special" class="nav__link" data-i18n="nav.special">Спецтехника</a>
+        <a href="#faq" class="nav__link" data-i18n="nav.faq">Вопросы</a>
+        <a href="#contacts" class="nav__link" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+
+      <!-- переключатель языка: кнопки, а не ссылки — страница не перезагружается -->
+      <div class="lang" role="group" aria-label="Язык сайта">
+        <button type="button" class="lang__btn is-active" data-lang="ru">RU</button>
+        <button type="button" class="lang__btn" data-lang="kz">KZ</button>
+        <button type="button" class="lang__btn" data-lang="en">EN</button>
+      </div>
+
+      <a href="https://wa.me/77012205546" class="btn btn--gold header__cta" target="_blank" rel="noopener">WhatsApp</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container hero__content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Астана · Алматы · весь Казахстан</p>
+        <h1 class="hero__title" data-i18n="hero.title">Аренда авто<br>с водителем</h1>
+        <p class="hero__text" data-i18n="hero.text">VIP-трансферы, аэропорт, межгород и мероприятия. Mercedes Sprinter, V-Class и автобусы от 4 до 50 мест.</p>
+        <div class="hero__actions">
+          <a href="#calc" class="btn btn--gold" data-i18n="hero.btn">Рассчитать поездку</a>
+          <a href="tel:+77012205546" class="btn btn--ghost">+7 701 220 55 46</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong>4–50</strong> <span data-i18n="fact.seats">мест</span></li>
+          <li><strong>24/7</strong> <span data-i18n="fact.support">поддержка</span></li>
+          <li><strong data-i18n="fact.years">10+ лет</strong> <span data-i18n="fact.market">на рынке</span></li>
+          <li><strong data-i18n="fact.langs">3 языка</strong> qaz · рус · eng</li>
+          <li><strong data-i18n="fact.from">от 9 000 ₸</strong> <span data-i18n="fact.hour">/ час</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== WHY US ===== -->
+    <section class="section" id="why">
+      <div class="container">
+        <p class="eyebrow" data-i18n="why.eyebrow">Больше чем перевозки</p>
+        <h2 class="section__title" data-i18n="why.title">5 причин выбрать Silk Way</h2>
+        <ol class="features">
+          <li class="feature">
+            <span class="feature__num">01</span>
+            <h3 class="feature__title">Большой выбор транспорта</h3>
+            <p>Легковые авто, Sprinter, автобусы — от 4 до 50 мест под любую задачу.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__num">02</span>
+            <h3 class="feature__title">Комфорт в каждой поездке</h3>
+            <p>Удобные кресла, кондиционер, чистый салон, премиальный сервис.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__num">03</span>
+            <h3 class="feature__title">Пунктуальность и безопасность</h3>
+            <p>Подача точно в срок. Водители со стажем от 10 лет говорят на казахском, русском и английском.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__num">04</span>
+            <h3 class="feature__title">Астана · Алматы · Казахстан</h3>
+            <p>Трансферы, мероприятия и межгород по всей стране.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__num">05</span>
+            <h3 class="feature__title">Индивидуальный подход</h3>
+            <p>Подберём транспорт под ваши задачи, маршрут и бюджет.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== FLEET ===== -->
+    <section class="section section--alt" id="fleet">
+      <div class="container">
+        <p class="eyebrow" data-i18n="fleet.eyebrow">Автопарк</p>
+        <h2 class="section__title" data-i18n="fleet.title">Комфортный транспорт для любых поездок</h2>
+
+        <!-- фильтр: data-min / data-max — диапазон пассажиров группы -->
+        <div class="filter" role="group" aria-label="Фильтр по количеству пассажиров">
+          <span class="filter__label" data-i18n="filter.label">Сколько вас?</span>
+          <button type="button" class="filter__btn is-active" data-min="0" data-max="99" data-i18n="filter.all">Все</button>
+          <button type="button" class="filter__btn" data-min="1" data-max="4">1–4</button>
+          <button type="button" class="filter__btn" data-min="5" data-max="7">5–7</button>
+          <button type="button" class="filter__btn" data-min="8" data-max="14">8–14</button>
+          <button type="button" class="filter__btn" data-min="15" data-max="21">15–21</button>
+          <button type="button" class="filter__btn" data-min="22" data-max="52">22–50</button>
+        </div>
+
+        <!-- у каждой машины data-seats-min / data-seats-max — для какой группы она подходит -->
+        <div class="fleet">
+          <article class="car" data-seats-min="8" data-seats-max="20">
+            <button type="button" class="car__media" data-photos="img/sprinter-vip.jpg,img/vip-in1.jpg,img/vip-in2.jpg" aria-label="Смотреть фото: VIP Mercedes-Benz Sprinter">
+              <img src="img/sprinter-vip.jpg" alt="VIP Mercedes-Benz Sprinter у отеля" loading="lazy">
+              <span class="car__count">📷 3 фото</span>
+            </button>
+            <div class="car__body">
+              <span class="car__badge">VIP</span>
+              <h3 class="car__title">VIP Mercedes-Benz Sprinter</h3>
+              <p class="car__seats">20 мест</p>
+              <p>Кожаный салон, кондиционер, отопление, телевизор. Деловые поездки, встреча гостей, развозка сотрудников.</p>
+              <p class="car__price">от 20 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="8" data-seats-max="21">
+            <button type="button" class="car__media" data-photos="img/sprinter.jpg,img/sprinter-2.jpg" aria-label="Смотреть фото: Mercedes-Benz Sprinter">
+              <img src="img/sprinter.jpg" alt="Mercedes-Benz Sprinter с водителем" loading="lazy">
+              <span class="car__count">📷 2 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Mercedes-Benz Sprinter</h3>
+              <p class="car__seats">20–21 место</p>
+              <p>Кондиционер, отопление, телевизор, вместительный багажник. Туры, трансферы, свадьбы, межгород.</p>
+              <p class="car__price">от 13 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="1" data-seats-max="6">
+            <button type="button" class="car__media" data-photos="img/vclass.jpg" aria-label="Смотреть фото: Mercedes-Benz V-Class">
+              <img src="img/vclass.jpg" alt="Mercedes-Benz V-Class" loading="lazy">
+              <span class="car__count">📷 1 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Mercedes-Benz V-Class</h3>
+              <p class="car__seats">6 мест</p>
+              <p>Просторный VIP-салон, кожаные сиденья, климат-контроль, вместительный багажник. Встречи гостей, свадьбы, аэропорт ↔ отель.</p>
+              <p class="car__price">от 25 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="1" data-seats-max="7">
+            <button type="button" class="car__media" data-photos="img/staria.jpg,img/staria-in.jpg,img/staria-in2.jpg" aria-label="Смотреть фото: Hyundai Staria">
+              <img src="img/staria.jpg" alt="Минивэн Hyundai Staria" loading="lazy">
+              <span class="car__count">📷 3 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Hyundai Staria</h3>
+              <p class="car__seats">минивэн</p>
+              <p>Просторный салон, кожаные кресла, кондиционер, вместительный багажник. Трансферы, экскурсии, поездки за город.</p>
+              <p class="car__price">цена по запросу</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="5" data-seats-max="14">
+            <button type="button" class="car__media" data-photos="img/hiace.jpg,img/hiace-in.jpg" aria-label="Смотреть фото: Toyota Hiace">
+              <img src="img/hiace.jpg" alt="Микроавтобус Toyota Hiace" loading="lazy">
+              <span class="car__count">📷 2 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Toyota Hiace</h3>
+              <p class="car__seats">11–14 мест</p>
+              <p>Просторный салон, кондиционер, отопление, вместительный багажник. По городу и в дальние поездки.</p>
+              <p class="car__price">от 9 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="15" data-seats-max="52">
+            <button type="button" class="car__media" data-photos="img/bus.jpg,img/bus-in.jpg,img/bus-in2.jpg" aria-label="Смотреть фото: Туристические автобусы">
+              <img src="img/bus.jpg" alt="Туристический автобус" loading="lazy">
+              <span class="car__count">📷 3 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Туристические автобусы</h3>
+              <p class="car__seats">25–52 места</p>
+              <p>Кондиционер, отопление, телевизор, откидные сиденья, вместительный багажник. Для туров, корпоративов и групп.</p>
+              <p class="car__price">от 21 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="1" data-seats-max="4">
+            <button type="button" class="car__media" data-photos="img/sclass.jpg,img/cars.jpg,img/sclass-in.jpg" aria-label="Смотреть фото: Mercedes-Benz S-Class">
+              <img src="img/sclass.jpg" alt="Mercedes-Benz S-Class S450 чёрного цвета" loading="lazy">
+              <span class="car__count">📷 3 фото</span>
+            </button>
+            <div class="car__body">
+              <span class="car__badge">VIP</span>
+              <h3 class="car__title">Mercedes-Benz S-Class</h3>
+              <p class="car__seats">S450 4MATIC · до 4 мест</p>
+              <p>Кожаный салон, мониторы для пассажиров, индивидуальный климат сзади. Для первых лиц, делегаций и свадеб.</p>
+              <p class="car__price">50 000 ₸ / час</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="1" data-seats-max="7">
+            <button type="button" class="car__media" data-photos="img/lexus.jpg" aria-label="Смотреть фото: Lexus LX">
+              <img src="img/lexus.jpg" alt="Lexus LX чёрного цвета" loading="lazy">
+              <span class="car__count">📷 1 фото</span>
+            </button>
+            <div class="car__body">
+              <span class="car__badge">Premium</span>
+              <h3 class="car__title">Lexus LX</h3>
+              <p class="car__seats">до 7 мест</p>
+              <p>Кожаный салон, климат-контроль, плавный и тихий ход. Когда автомобиль должен производить впечатление.</p>
+              <p class="car__price">цена по запросу</p>
+            </div>
+          </article>
+          <article class="car" data-seats-min="1" data-seats-max="7">
+            <button type="button" class="car__media" data-photos="img/cars.jpg" aria-label="Смотреть фото: Легковые и внедорожники">
+              <img src="img/cars.jpg" alt="Легковые автомобили бизнес-класса" loading="lazy">
+              <span class="car__count">📷 1 фото</span>
+            </button>
+            <div class="car__body">
+              <h3 class="car__title">Легковые и внедорожники</h3>
+              <p class="car__seats">4–7 мест</p>
+              <p>Toyota Camry, Mercedes W221/W222, Land Cruiser — встречи и деловые поездки.</p>
+              <p class="car__price">от 10 000 ₸ / час</p>
+            </div>
+          </article>
+        </div>
+        <p class="filter__empty" hidden>Под такую группу подберём транспорт индивидуально — напишите нам.</p>
+      </div>
+    </section>
+
+    <!-- ===== INDIVIDUAL TRANSFER ===== -->
+    <section class="section" id="transfer">
+      <div class="container">
+        <p class="eyebrow" data-i18n="transfer.eyebrow">Индивидуальный трансфер</p>
+        <h2 class="section__title" data-i18n="transfer.title">В деталях, которые делают поездку комфортной</h2>
+        <ul class="features perks">
+          <li class="feature">
+            <h3 class="feature__title">Точное время подачи</h3>
+            <p>Автомобиль приезжает к согласованному времени — без ожидания и лишней организации.</p>
+          </li>
+          <li class="feature">
+            <h3 class="feature__title">Фиксированная стоимость</h3>
+            <p>Цена известна заранее и не меняется после бронирования.</p>
+          </li>
+          <li class="feature">
+            <h3 class="feature__title">Маршрут под вас</h3>
+            <p>Остановка по пути, дополнительный адрес — всё обсуждается заранее.</p>
+          </li>
+          <li class="feature">
+            <h3 class="feature__title">Без лишних людей</h3>
+            <p>Только вы и ваши пассажиры. Без ожиданий и пересадок.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PRICE ===== -->
+    <section class="section section--alt" id="price">
+      <div class="container">
+        <p class="eyebrow" data-i18n="price.eyebrow">Прайс</p>
+        <h2 class="section__title" data-i18n="price.title">Стоимость за 1 час</h2>
+
+        <div class="price">
+          <div class="price__group">
+            <h3 class="price__heading">Автобусы и микроавтобусы</h3>
+            <ul class="price__list">
+              <li><span>Mercedes Sprinter <small>2010–2014 · 18–21 место</small></span><b>13 000 ₸</b></li>
+              <li><span>Mercedes Sprinter <small>2015–2019 · 18–21 место</small></span><b>20 000 ₸</b></li>
+              <li><span>Van Hool / Neoplan <small>2010–2018 · 25–52 места</small></span><b>21 000 ₸</b></li>
+              <li><span>Higer <small>2018–2020 · 25–52 места · +1 час подачи</small></span><b>25 000 ₸</b></li>
+              <li><span>Toyota Hiace <small>2012–2014 · 11 мест</small></span><b>9 000 ₸</b></li>
+              <li><span>Toyota Hiace <small>2023 · 14 мест</small></span><b>12 000 ₸</b></li>
+            </ul>
+          </div>
+
+          <div class="price__group">
+            <h3 class="price__heading">Минивэны и автомобили</h3>
+            <ul class="price__list">
+              <li><span>Land Cruiser <small>2013–2015 · 5–7 мест</small></span><b>20 000 ₸</b></li>
+              <li><span>Mercedes Viano <small>2012–2015 · 6 мест</small></span><b>18 000 ₸</b></li>
+              <li><span>Mercedes V-Class <small>2014–2018 · 6 мест</small></span><b>25 000 ₸</b></li>
+              <li><span>Mercedes W221 <small>2010–2013</small></span><b>18 000 ₸</b></li>
+              <li><span>Mercedes W222 <small>2015–2020</small></span><b>25 000 ₸</b></li>
+              <li><span>Mercedes S450 W223 <small>4MATIC · VIP</small></span><b>50 000 ₸</b></li>
+              <li><span>Toyota Camry <small>2018–2020</small></span><b>10 000 ₸</b></li>
+            </ul>
+          </div>
+        </div>
+        <p class="price__note">Точную стоимость маршрута уточняйте в WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ===== CALCULATOR ===== -->
+    <section class="section" id="calc">
+      <div class="container calc">
+        <div class="calc__text">
+          <p class="eyebrow" data-i18n="calc.eyebrow">Калькулятор</p>
+          <h2 class="section__title" data-i18n="calc.title">Сколько будет стоить поездка</h2>
+          <p class="calc__lead" data-i18n="calc.lead">Выберите транспорт и время — цена посчитается сразу.</p>
+        </div>
+
+        <!-- value у option — цена за час из прайса; data-extra="1" — +1 час подачи (Higer) -->
+        <form class="calc__box" id="calcForm">
+          <label class="form__field">
+            <span data-i18n="form.car">Транспорт</span>
+            <select name="car" id="calcCar">
+              <option value="9000">Toyota Hiace · 11 мест</option>
+              <option value="10000">Toyota Camry</option>
+              <option value="12000">Toyota Hiace 2023 · 14 мест</option>
+              <option value="13000" selected>Mercedes Sprinter · 18–21 место</option>
+              <option value="18000">Mercedes Viano · 6 мест</option>
+              <option value="18000">Mercedes W221</option>
+              <option value="20000">VIP Mercedes Sprinter · 20 мест</option>
+              <option value="20000">Land Cruiser · 5–7 мест</option>
+              <option value="21000">Автобус Van Hool / Neoplan · до 52 мест</option>
+              <option value="25000" data-extra="1">Автобус Higer · до 52 мест</option>
+              <option value="25000">Mercedes V-Class · 6 мест</option>
+              <option value="25000">Mercedes W222</option>
+              <option value="50000">Mercedes S450 · VIP</option>
+            </select>
+          </label>
+
+          <label class="form__field">
+            <span><span data-i18n="calc.hours">Часов</span>: <b id="calcHoursOut">3</b></span>
+            <input type="range" name="hours" id="calcHours" min="1" max="12" value="3">
+          </label>
+
+          <p class="calc__extra" id="calcExtra" hidden>+1 час подачи для автобуса Higer</p>
+
+          <div class="calc__total">
+            <span data-i18n="calc.total">Итого</span>
+            <output id="calcTotal" for="calcCar calcHours">39 000 ₸</output>
+          </div>
+          <p class="calc__note" data-i18n="calc.note">Предварительный расчёт. Точную цену подтвердит менеджер.</p>
+          <button type="submit" class="btn btn--gold btn--full" data-i18n="calc.btn">Забронировать в WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <p class="eyebrow" data-i18n="services.eyebrow">Услуги</p>
+        <h2 class="section__title" data-i18n="services.title">Подберём формат поездки под ваш маршрут</h2>
+        <ul class="services">
+          <li class="service"><h3>Аэропорт и вокзал</h3><p>Встреча и проводы, трансфер в отель.</p></li>
+          <li class="service"><h3>Делегации и гости</h3><p>Встреча и сопровождение официальных гостей.</p></li>
+          <li class="service"><h3>Межгород</h3><p>Бурабай и дальние маршруты по Казахстану.</p></li>
+          <li class="service"><h3>Той и мероприятия</h3><p>Свадьбы, құдалық, форумы, корпоративы.</p></li>
+          <li class="service"><h3>Развозка сотрудников</h3><p>Регулярные корпоративные поездки.</p></li>
+          <li class="service"><h3>Экскурсии и туры</h3><p>Для организованных групп и гостей города.</p></li>
+        </ul>
+
+        <div class="rent">
+          <p class="rent__label">Форматы аренды</p>
+          <ul class="rent__list">
+            <li>Почасовая</li>
+            <li>На день</li>
+            <li>На сутки</li>
+            <li>На месяц</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== POPULAR ROUTES ===== -->
+    <section class="section" id="routes">
+      <div class="container">
+        <p class="eyebrow" data-i18n="routes.eyebrow">Популярные маршруты</p>
+        <h2 class="section__title" data-i18n="routes.title">Куда ездят чаще всего</h2>
+        <!-- data-route — текст, который уйдёт в WhatsApp -->
+        <ul class="routes">
+          <li class="route">
+            <p class="route__path">Аэропорт NQZ <span>↔</span> город</p>
+            <p class="route__meta">≈ 25–40 минут · встреча и проводы</p>
+            <a href="https://wa.me/77012205546?text=Здравствуйте! Сколько стоит трансфер аэропорт NQZ ↔ город?" class="btn btn--ghost" target="_blank" rel="noopener" data-i18n="routes.btn">Узнать цену</a>
+          </li>
+          <li class="route">
+            <p class="route__path">Астана <span>→</span> Бурабай</p>
+            <p class="route__meta">≈ 250 км · 3 часа в пути</p>
+            <a href="https://wa.me/77012205546?text=Здравствуйте! Сколько стоит поездка Астана → Бурабай?" class="btn btn--ghost" target="_blank" rel="noopener" data-i18n="routes.btn">Узнать цену</a>
+          </li>
+          <li class="route">
+            <p class="route__path">Астана <span>→</span> Караганда</p>
+            <p class="route__meta">≈ 220 км · 2,5–3 часа в пути</p>
+            <a href="https://wa.me/77012205546?text=Здравствуйте! Сколько стоит поездка Астана → Караганда?" class="btn btn--ghost" target="_blank" rel="noopener" data-i18n="routes.btn">Узнать цену</a>
+          </li>
+          <li class="route">
+            <p class="route__path">Астана <span>→</span> Алматы</p>
+            <p class="route__meta">≈ 1 200 км · дальний межгород</p>
+            <a href="https://wa.me/77012205546?text=Здравствуйте! Сколько стоит поездка Астана → Алматы?" class="btn btn--ghost" target="_blank" rel="noopener" data-i18n="routes.btn">Узнать цену</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== TOURS & EVENTS (совместно с Kompas Asia) ===== -->
+    <section class="section section--alt tours" id="tours">
+      <div class="container">
+        <p class="eyebrow" data-i18n="tours.eyebrow">Туры и мероприятия · совместно с Kompas Asia</p>
+        <h2 class="section__title" data-i18n="tours.title">Туры на заказ в любой день недели</h2>
+
+        <ol class="steps">
+          <li><span>01</span>Вы выбираете дату</li>
+          <li><span>02</span>Мы разрабатываем маршрут</li>
+          <li><span>03</span>Организуем всё под ключ</li>
+          <li><span>04</span>Вы наслаждаетесь путешествием</li>
+        </ol>
+
+        <div class="tours__grid">
+          <div class="tours__card">
+            <h3 class="tours__heading">Что проводим</h3>
+            <ul class="check-list">
+              <li>Индивидуальные туры</li>
+              <li>Тимбилдинги и корпоративы</li>
+              <li>Выездные мероприятия</li>
+              <li>Дни рождения и годовщины компаний</li>
+              <li>Девичники и мальчишники</li>
+              <li>Выпускные</li>
+            </ul>
+          </div>
+
+          <div class="tours__card">
+            <h3 class="tours__heading">Всё включено</h3>
+            <ul class="check-list">
+              <li>Комфортабельный трансфер</li>
+              <li>Проживание в отелях и домах отдыха</li>
+              <li>Питание</li>
+              <li>Развлекательная программа и экскурсии</li>
+              <li>Гиды-организаторы и ведущие</li>
+              <li>Фото- и видеосъёмка, отчётность</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="tours__subtitle">Кому подходит</h3>
+        <ul class="chips">
+          <li>Большим компаниям</li>
+          <li>Нескольким семьям</li>
+          <li>Студентам и школьникам</li>
+          <li>Иностранным гостям и делегациям</li>
+        </ul>
+
+        <h3 class="tours__subtitle" data-i18n="tours.map">Куда поедем</h3>
+        <div class="map-wrap">
+          <!-- схема, а не точная карта: координаты городов пересчитаны из широты/долготы -->
+          <svg class="map" viewBox="0 0 585 335" role="img" aria-label="Схема направлений по Казахстану из Астаны">
+            <path class="map__land" d="M60.2 88.0 L91.0 90.2 L126 105.6 L168 99.0 L215.6 105.6 L210.0 79.2 L207.2 59.4 L224 55.0 L217.0 37.4 L266 22.0 L294 15.4 L322 4.4 L350 30.8 L385.0 35.2 L431.2 26.4 L441.0 50.6 L448 68.2 L476 96.8 L511.0 103.4 L525.0 101.2 L546 127.6 L578.2 143.0 L567.0 154.0 L553.0 187.0 L518 184.8 L508.2 222.2 L478.8 233.2 L476.0 270.6 L478.8 294.8 L448 279.4 L394.8 272.8 L385.0 288.2 L350 288.2 L343.0 310.2 L322 321.2 L308 327.8 L288.4 316.8 L280 279.4 L252 264.0 L210 246.4 L175.0 222.2 L140 233.2 L140 314.6 L126 314.6 L98 297.0 L92.4 303.6 L91.0 281.6 L77.0 272.8 L68.6 244.2 L74.2 226.6 L98 226.6 L100.8 198.0 L70 189.2 L42 202.4 L35.0 180.4 L21.0 167.2 L7.0 156.2 L14 132.0 L35.0 110.0 Z"/>
+            <g class="map__routes">
+              <line x1="356.3" y1="97.5" x2="340.2" y2="55.4"/><line x1="356.3" y1="97.5" x2="324.1" y2="59.4"/><line x1="356.3" y1="97.5" x2="312.2" y2="47.3"/><line x1="356.3" y1="97.5" x2="379.4" y2="127.6"/><line x1="356.3" y1="97.5" x2="412.6" y2="136.4"/><line x1="356.3" y1="97.5" x2="415.8" y2="105.6"/><line x1="356.3" y1="97.5" x2="405.7" y2="192.7"/><line x1="356.3" y1="97.5" x2="432.6" y2="271.9"/><line x1="356.3" y1="97.5" x2="311.5" y2="270.6"/><line x1="356.3" y1="97.5" x2="330.4" y2="292.6"/><line x1="356.3" y1="97.5" x2="156.8" y2="117.0"/><line x1="356.3" y1="97.5" x2="72.8" y2="262.9"/><line x1="356.3" y1="97.5" x2="512.4" y2="124.3"/>
+            </g>
+            <g class="map__city map__city--hub" tabindex="0"><circle cx="356.3" cy="97.5" r="6"/><text x="364.3" y="101.5" text-anchor="start">Астана</text></g><g class="map__city" tabindex="0"><circle cx="340.2" cy="55.4" r="4"/><text x="348.2" y="59.4" text-anchor="start">Бурабай</text></g><g class="map__city" tabindex="0"><circle cx="324.1" cy="59.4" r="4"/><text x="316.1" y="63.4" text-anchor="end">Зеренда</text></g><g class="map__city" tabindex="0"><circle cx="312.2" cy="47.3" r="4"/><text x="304.2" y="51.3" text-anchor="end">Имантау</text></g><g class="map__city" tabindex="0"><circle cx="379.4" cy="127.6" r="4"/><text x="371.4" y="131.6" text-anchor="end">Караганда</text></g><g class="map__city" tabindex="0"><circle cx="412.6" cy="136.4" r="4"/><text x="420.6" y="140.4" text-anchor="start">Каркаралинск</text></g><g class="map__city" tabindex="0"><circle cx="415.8" cy="105.6" r="4"/><text x="423.8" y="109.6" text-anchor="start">Баянаул</text></g><g class="map__city" tabindex="0"><circle cx="405.7" cy="192.7" r="4"/><text x="413.7" y="196.7" text-anchor="start">Балхаш</text></g><g class="map__city" tabindex="0"><circle cx="432.6" cy="271.9" r="4"/><text x="440.6" y="275.9" text-anchor="start">Алматы</text></g><g class="map__city" tabindex="0"><circle cx="311.5" cy="270.6" r="4"/><text x="303.5" y="274.6" text-anchor="end">Туркестан</text></g><g class="map__city" tabindex="0"><circle cx="330.4" cy="292.6" r="4"/><text x="338.4" y="296.6" text-anchor="start">Шымкент</text></g><g class="map__city" tabindex="0"><circle cx="156.8" cy="117.0" r="4"/><text x="164.8" y="121.0" text-anchor="start">Актобе</text></g><g class="map__city" tabindex="0"><circle cx="72.8" cy="262.9" r="4"/><text x="80.8" y="266.9" text-anchor="start">Мангистау</text></g><g class="map__city" tabindex="0"><circle cx="512.4" cy="124.3" r="4"/><text x="512.4" y="144.3" text-anchor="middle">Восточный КЗ</text></g>
+          </svg>
+          <ul class="chips chips--muted map__extra">
+            <li>Музей АЛЖИР</li><li>Музей Карлаг</li><li>Село Родина</li><li>и другие места</li>
+          </ul>
+        </div>
+
+        <div class="trust">
+          <p class="trust__num">500+ <span>мероприятий проведено</span></p>
+          <p class="trust__list">Нам доверяют: Magnum, Egger, Invivo, Jet Logistic, Nazarbayev University, Abay Academy, посольства разных стран, школы и университеты.</p>
+          <div class="trust__actions">
+            <a href="tel:+77001940940" class="btn btn--gold">+7 700 194 09 40</a>
+            <a href="https://wa.me/77001940940" class="btn btn--ghost" target="_blank" rel="noopener">Обсудить тур в WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SPECIAL EQUIPMENT ===== -->
+    <section class="section special" id="special">
+      <div class="container special__inner">
+        <div class="special__media"><img src="img/pump.jpg" alt="Автобетононасос на стройке" loading="lazy"></div>
+        <div class="special__text">
+          <p class="eyebrow" data-i18n="special.eyebrow">Спецтехника</p>
+          <h2 class="section__title" data-i18n="special.title">Автобетононасосы от 37 до 80 метров</h2>
+          <p class="special__lead">Организуем подачу бетона на стройплощадках в Астане и по всему Казахстану. Слон, насос, бетононасос.</p>
+          <ul class="special__list">
+            <li><b>47 м</b> стандартные объекты</li>
+            <li><b>55 м</b> увеличенный радиус</li>
+            <li><b>65 м</b> высотное строительство</li>
+            <li><b>75 м</b> крупные объекты</li>
+          </ul>
+          <a href="https://wa.me/77012205546?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%9D%D1%83%D0%B6%D0%B5%D0%BD%20%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D0%B5%D1%82%D0%BE%D0%BD%D0%BE%D0%BD%D0%B0%D1%81%D0%BE%D1%81" class="btn btn--gold" target="_blank" rel="noopener">Рассчитать стоимость</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ — details/summary раскрываются сами, без JS ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container faq">
+        <div>
+          <p class="eyebrow" data-i18n="faq.eyebrow">Вопросы</p>
+          <h2 class="section__title" data-i18n="faq.title">Частые вопросы</h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item" open>
+            <summary>Как забронировать транспорт?</summary>
+            <p>Напишите в WhatsApp или Direct, позвоните по номеру +7 701 220 55 46 или заполните форму внизу страницы — она сразу откроет WhatsApp с готовым сообщением.</p>
+          </details>
+          <details class="faq__item">
+            <summary>На какой срок можно арендовать?</summary>
+            <p>Почасовая аренда, на день, на сутки и на месяц.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Может ли цена измениться после бронирования?</summary>
+            <p>Нет. Стоимость фиксируется заранее и остаётся неизменной после бронирования.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Можно сделать остановку или добавить адрес?</summary>
+            <p>Да. Остановка по дороге, дополнительный адрес или изменение маршрута обсуждаются заранее и подстраиваются под ваш формат поездки.</p>
+          </details>
+          <details class="faq__item">
+            <summary>На каких языках говорят водители?</summary>
+            <p>На казахском, русском и английском. Стаж водителей — от 10 лет.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Работаете только в Астане?</summary>
+            <p>Нет. Астана, Алматы и весь Казахстан: трансферы, мероприятия и межгород.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      ===== ОТЗЫВЫ (включить, когда клиент пришлёт настоящие) =====
+      <section class="section" id="reviews">
+        <div class="container">
+          <p class="eyebrow">Отзывы</p>
+          <h2 class="section__title">Что говорят клиенты</h2>
+          <ul class="reviews">
+            <li class="review">
+              <p class="review__text">«Текст отзыва»</p>
+              <p class="review__author">Имя, компания</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    -->
+
+    <!-- ===== ORDER FORM ===== -->
+    <section class="section" id="order">
+      <div class="container order">
+        <div class="order__text">
+          <p class="eyebrow" data-i18n="order.eyebrow">Заказ</p>
+          <h2 class="section__title" data-i18n="order.title">Узнать стоимость</h2>
+          <p data-i18n="order.text">Заполните форму — она откроет WhatsApp с готовым сообщением.</p>
+        </div>
+
+        <form class="form" id="orderForm">
+          <label class="form__field">
+            <span data-i18n="form.name">Ваше имя</span>
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label class="form__field">
+            <span data-i18n="form.car">Транспорт</span>
+            <select name="car">
+              <option>VIP Mercedes Sprinter</option>
+              <option>Mercedes Sprinter</option>
+              <option>Mercedes V-Class</option>
+              <option>Mercedes S-Class</option>
+              <option>Lexus LX</option>
+              <option>Hyundai Staria</option>
+              <option>Toyota Hiace</option>
+              <option>Автобус</option>
+              <option>Легковой автомобиль</option>
+              <option>Тур / мероприятие под ключ</option>
+              <option>Не знаю, помогите выбрать</option>
+            </select>
+          </label>
+          <div class="form__row">
+            <label class="form__field">
+              <span data-i18n="form.date">Дата</span>
+              <input type="date" name="date" required>
+            </label>
+            <label class="form__field">
+              <span data-i18n="form.people">Пассажиров</span>
+              <input type="number" name="people" min="1" max="50" value="1">
+            </label>
+          </div>
+          <label class="form__field">
+            <span data-i18n="form.route">Маршрут</span>
+            <input type="text" name="route" placeholder="Аэропорт → отель" required>
+          </label>
+          <button type="submit" class="btn btn--gold btn--full" data-i18n="form.submit">Отправить в WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__inner">
+      <div>
+        <a href="#top" class="logo"><span class="logo__text">Silk Way <small>Logistics</small></span></a>
+        <p class="footer__slogan" data-i18n="footer.slogan">Движем людей ближе к важному</p>
+      </div>
+      <ul class="footer__contacts">
+        <li><a href="tel:+77012205546">+7 701 220 55 46</a></li>
+        <li><a href="tel:+77001940940">+7 700 194 09 40</a></li>
+        <li><a href="https://wa.me/77012205546" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://instagram.com/silkway.logisticskz" target="_blank" rel="noopener">Instagram</a></li>
+        <li>Астана, Казахстан</li>
+      </ul>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Silk Way Logistics</p>
+  </footer>
+
+  <!-- плавающая кнопка WhatsApp для телефона -->
+  <a href="https://wa.me/77012205546" class="wa-float" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+
+  <!-- галерея: <dialog> — встроенное модальное окно браузера (Esc и фокус работают сами) -->
+  <dialog class="gallery" id="gallery" aria-label="Фотографии автомобиля">
+    <button type="button" class="gallery__close" id="galleryClose" aria-label="Закрыть">✕</button>
+    <img class="gallery__img" id="galleryImg" src="" alt="">
+    <button type="button" class="gallery__nav gallery__nav--prev" id="galleryPrev" aria-label="Предыдущее фото">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" id="galleryNext" aria-label="Следующее фото">›</button>
+    <p class="gallery__count" id="galleryCount"></p>
+  </dialog>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
